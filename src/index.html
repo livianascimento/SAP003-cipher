@@ -7,7 +7,20 @@
   </head>
   <body>
     <div id="root">
-      <h1>Hello world!</h1>
+      <h1>Cifra de César</h1>
+
+      <div id="data_input">
+        Digite uma mensagem: <input type="text" id="message"><br>
+        Digite a chave: <input type="number" id="key" min="1" max="5"><br>
+        <button onclick="encode()">Encriptar</button>
+        <button onclick="decode()">Decriptar</button>
+      </div>
+
+      <div id="data_out">
+        <p id="res">Mensagem</p>
+      </div>
+      
+      
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>

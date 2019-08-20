@@ -10,17 +10,17 @@
       <h1>Cifra de César</h1>
 
       <div id="data_input">
-        Digite uma mensagem: <input type="text" id="message"><br>
-        Digite a chave: <input type="number" id="key" min="1" max="5"><br>
-        <button onclick="encode()">Encriptar</button>
-        <button onclick="decode()">Decriptar</button>
+        Digite uma mensagem: <input type="text" id="str"><br>
+        Digite a chave de deslocamento: <input type="number" id="offset"><br>
+        <button onclick="encodeMsg()">Encriptar</button>
+        <button onclick="decodeMsg()">Decriptar</button>
       </div>
 
-      <div id="data_out">
-        <p id="res">Mensagem</p>
+      <div id="data_output">
+        <p id="encodedMsg"></p>
+        <p id="decodedMsg"></p>
       </div>
-      
-      
+    
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>

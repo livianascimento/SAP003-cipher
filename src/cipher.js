@@ -3,10 +3,22 @@ window.cipher = {
   decode: decode 
 };
 
-function encode() {
-  alert("banana");
+function encode(offset, str) {
+  let msg = "";
+
+  for (let i = 0; i < str.length; i++) {
+    msg += String.fromCharCode(((str.charCodeAt(i) - 65) + offset) % 26 + 65);
+  }
+
+  return msg;
 }
 
-function decode() {
-  alert("peixinho");
+function decode(offset, str) {
+  let msg = "";
+
+  for (let i = 0; i < str.length; i++) {    
+    msg += String.fromCharCode(((str.charCodeAt(i) + 65) - offset) % 26 + 65);
+  }
+
+  return msg;
 }

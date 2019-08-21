@@ -1,0 +1,54 @@
+body {
+    /*background: wheat;*/
+    background-image: url("background.jpg");
+    background-position-x: 110px;
+    color: rgb(199, 194, 194);
+}
+
+h1 {
+    font: bold 32pt Arial;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#data_input {
+    font: normal 16pt Arial;
+    text-align: center;
+    /*border: solid 3px rgb(54, 2, 2);
+    border-radius: 8px;*/
+    padding: 20px;
+    width: 50%;
+    /*width: 450px;
+    height: 250px;*/
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+input {
+    margin-top: 10px;
+}
+
+.btn {
+    font: normal 12pt Arial;
+    border-radius: 8px;
+    padding: 12px;
+    margin-left: 17px;
+    margin-right: 30px;
+    margin-top: 19px;
+}
+
+#data_output {
+    font: bold 14pt Arial;
+    text-align: center;
+    color: rgb(121, 5, 5);
+    /*border: solid 3px rgb(54, 2, 2);
+    border-radius: 8px;*/
+    padding: 20px;
+    width: 50%;
+    /*width: 450px;
+    height: 250px;*/
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}

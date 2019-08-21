@@ -6,22 +6,19 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Cifra de César</h1>
+    <div id="root">      
+      <h1>GOTCHA!</h1>
 
       <div id="data_input">
-        Digite uma mensagem: <input type="text" id="str"><br>
-        Digite a chave de deslocamento: <input type="number" id="offset"><br>
-        <button id="btn_encode">Encriptar</button>
-        <!--<button onclick="encodeMsg()">Encriptar</button>-->
-        <button onclick="decodeMsg()">Decriptar</button>
+        Mensagem<br>
+        <input type="text" id="str"><br>
+        Chave de Deslocamento<br>
+        <input type="number" id="offset"><br>
+        <button class="btn" id="btn_encode">Encriptar</button>
+        <button class="btn" id="btn_decode">Decriptar</button>
       </div>
 
-      <div id="data_output">
-        <p id="encodedMsg"></p>
-        <p id="decodedMsg"></p>
-      </div>
-    
+      <div id="data_output"></div>
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>

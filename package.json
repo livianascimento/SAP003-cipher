@@ -4,7 +4,7 @@
   "main": "src/index.html",
   "license": "MIT",
   "scripts": {
-    "eslint": "eslint --ext .js src/ test/ ",
+    "eslint": "eslint --ext .js src/ test/ --fix",
     "pretest": "npm run eslint",
     "test-browser": "opener ./test/index.html",
     "test-node": "nyc mocha ./test/headless.js",
@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "chai": "^4.1.2",
-    "eslint": "^5.9.0",
+    "eslint": "^5.16.0",
     "mocha": "^6.1.4",
     "nyc": "^14.1.1",
     "opener": "^1.4.3",

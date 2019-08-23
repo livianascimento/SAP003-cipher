@@ -8,10 +8,10 @@ function encode(offset, str) {
 
   for (let i = 0; i < str.length; i++) {
     if (str.charCodeAt(i) >= 97 && str.charCodeAt(i) <= 122) {
-      msg += String.fromCharCode(((str.charCodeAt(i) - 97) + offset) % 26 + 97);
+      msg += String.fromCharCode(((str.charCodeAt(i) - 97) + (offset % 26 + 26)) % 26 + 97);
     }
     else if (str.charCodeAt(i) >= 65 && str.charCodeAt(i) <= 90) {
-      msg += String.fromCharCode(((str.charCodeAt(i) - 65) + offset) % 26 + 65);
+      msg += String.fromCharCode(((str.charCodeAt(i) - 65) + (offset % 26 + 26)) % 26 + 65);
     }
     else {
       msg += str[i];
@@ -26,10 +26,10 @@ function decode(offset, str) {
 
   for (let i = 0; i < str.length; i++) {
     if (str.charCodeAt(i) >= 97 && str.charCodeAt(i) <= 122) {
-      msg += String.fromCharCode(((str.charCodeAt(i) - 122) - offset) % 26 + 122);
+      msg += String.fromCharCode(((str.charCodeAt(i) - 122) - (offset % 26 + 26)) % 26 + 122);
     }
     else if (str.charCodeAt(i) >= 65 && str.charCodeAt(i) <= 90) {
-      msg += String.fromCharCode(((str.charCodeAt(i) - 90) - offset) % 26 + 90);
+      msg += String.fromCharCode(((str.charCodeAt(i) - 90) - (offset % 26 + 26)) % 26 + 90);
     }
     else {
       msg += str[i];

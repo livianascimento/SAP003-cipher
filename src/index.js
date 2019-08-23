@@ -10,7 +10,7 @@ encodeMsg.addEventListener("click", () => {
 });
 
 decodeMsg.addEventListener("click", () => {
-  const msg = document.getElementById("str").value.toUpperCase();
+  const msg = document.getElementById("str").value;
   const offset = parseInt(document.getElementById("offset").value);
   const decodedMsg = window.cipher.decode(offset, msg);
 

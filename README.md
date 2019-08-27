@@ -6,7 +6,7 @@
 * [2. Objetivo do projeto](#2-objetivo-do-projeto)
 * [3. Oportunidade de negócio](#3-oportunidade-de-negócio)
 * [4. Definição do produto](#4-definição-do-produto)
-* [5. Scripts / Arquivos](#5-scripts-/-arquivos)
+* [5. Scripts/Arquivos](#5-scripts/arquivos)
 * [6. Checklist](#6-checklist)
 
 ***

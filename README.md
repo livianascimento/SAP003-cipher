@@ -6,7 +6,7 @@
 * [2. Objetivo do projeto](#2-objetivo-do-projeto)
 * [3. Oportunidade de negócio](#3-oportunidade-de-negócio)
 * [4. Definição do produto](#4-definição-do-produto)
-* [5. Scripts/Arquivos](#5-scripts/arquivos)
+* [5. Scripts e Arquivos](#5-scripts-e-arquivos)
 * [6. Checklist](#6-checklist)
 
 ***
@@ -46,7 +46,7 @@ A interface deve permitir ao usuário:
 * Botão Encriptar: ao clicar cifra a mensagem. A mensagem cifrada aparece do lado direito da tela.
 * Botão Decriptar: ao clicar decifra a mensagem. A mensagem decifrada aparece do lado direito da tela. 
 
-## 5. Scripts/Arquivos
+## 5. Scripts e Arquivos
 
 * `README.md`: contém informações sobre o projeto, seu objetivo, introdução a aplicação, suas funcionalidades, definição do produto e como executar a aplicação. 
 * `src/index.html`: aqui encontra-se o ponto de entrada da aplicação. Este arquivo contém a marcação HTML e chama o CSS e JavaScript necessários. 

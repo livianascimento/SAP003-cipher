@@ -46,7 +46,7 @@ A interface deve permitir ao usuário:
 * Botão Encriptar: ao clicar cifra a mensagem. A mensagem cifrada aparece do lado direito da tela.
 * Botão Decriptar: ao clicar decifra a mensagem. A mensagem decifrada aparece do lado direito da tela. 
 
-## 5. Scripts / Arquivos
+## 5. Scripts/Arquivos
 
 * `README.md`: contém informações sobre o projeto, seu objetivo, introdução a aplicação, suas funcionalidades, definição do produto e como executar a aplicação. 
 * `src/index.html`: aqui encontra-se o ponto de entrada da aplicação. Este arquivo contém a marcação HTML e chama o CSS e JavaScript necessários. 
